@@ -2,7 +2,7 @@
 # incoporates them via newer string formatters (https://pyformat.info/)into a into a paragraph of Sherlockian narrative.
 # base text adapted from "A Study in Scarlett" by Sir Arthur Conan Doyle accessed at http://www.gutenberg.org/files/244/244-h/244-h.htm#link2HCH0001
 
-num = raw_input("Please enter a number")
+num = raw_input("Please enter a number: ")
 adjective_a = raw_input("Please enter adjective: ")
 noun_a = raw_input("Please enter a noun: ")
 verb = raw_input("Please enter a verb: ")
