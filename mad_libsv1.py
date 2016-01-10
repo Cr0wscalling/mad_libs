@@ -19,12 +19,12 @@ noun_c = raw_input("Please enter a third noun: ")
 print """
 	---------------------------
 	"You see," he explained, "I consider that a man's 
-	brain originally is like %r little %r %r, and you 
-	have to %r it with such %r as you choose. A 
-	%r takes in all the %r of every sort that he comes 
-	across, so that the %r which might be useful to 
-	him gets crowded out, or at best is %r up with a lot
+	brain originally is like %s little %s %s, and you 
+	have to %s it with such %s as you choose. A 
+	%s takes in all the %s of every sort that he comes 
+	across, so that the %s which might be useful to 
+	him gets crowded out, or at best is %s up with a lot
 	of other things so that he has a difficulty in laying his 
-	%r upon it."
+	%s upon it."
 	---------------------------""" % (num, adjective_a, noun_a, verb, noun_b, person_pet, 
 	noun_c, noun_b, adjective_b, noun_c)
