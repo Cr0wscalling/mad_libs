@@ -1,7 +1,7 @@
 # This Python program elicits parts of speech from the user and 
 # incoporates them via string formatters into a into a paragraph of Sherlockian narrative.
 # base text adapted from "A Study in Scarlett" by Sir Arthur Conan Doyle accessed at http://www.gutenberg.org/files/244/244-h/244-h.htm#link2HCH0001
-
+name = raw_input = ("Please enter a name: ")
 num = raw_input("Please enter a number: ")
 adjective_a = raw_input("Please enter adjective: ")
 noun_a = raw_input("Please enter a noun: ")
@@ -18,7 +18,7 @@ noun_c = raw_input("Please enter a third noun: ")
 
 print """
 	---------------------------
-	"You see," he explained, "I consider that a man's 
+	"You see %s," he explained, "I consider that a man's 
 	brain originally is like %s little %s %s, and you 
 	have to %s it with such %s as you choose. A 
 	%s takes in all the %s of every sort that he comes 
@@ -26,5 +26,5 @@ print """
 	him gets crowded out, or at best is %s up with a lot
 	of other things so that he has a difficulty in laying his 
 	%s upon it."
-	---------------------------""" % (num, adjective_a, noun_a, verb, noun_b, person_pet, 
+	---------------------------""" % (name, num, adjective_a, noun_a, verb, noun_b, person_pet, 
 	noun_c, noun_b, adjective_b, noun_c)
