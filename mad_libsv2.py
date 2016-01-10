@@ -2,7 +2,7 @@
 # incoporates them via newer string formatters (https://pyformat.info/)into a into a paragraph of Sherlockian narrative.
 # base text adapted from "A Study in Scarlett" by Sir Arthur Conan Doyle accessed at http://www.gutenberg.org/files/244/244-h/244-h.htm#link2HCH0001
 
-
+num = raw_input("Please enter a number")
 adjective_a = raw_input("Please enter adjective: ")
 noun_a = raw_input("Please enter a noun: ")
 verb = raw_input("Please enter a verb: ")
@@ -19,12 +19,12 @@ noun_c = raw_input("Please enter a third noun: ")
 print """
 	---------------------------
 	"You see," he explained, "I consider that a man's 
-	brain originally is like a little '{} {}', and you 
+	brain originally is like '{}' little '{} {}', and you 
 	have to '{}' it with such '{}' as you choose. A 
 	'{}'takes in all the '{}' of every sort that he comes 
 	across, so that the '{}' which might be useful to 
 	him gets crowded out, or at best is '{}' up with a lot
 	of other things so that he has a difficulty in laying his 
 	'{}' upon it."
-	---------------------------""" .format (adjective_a, noun_a, verb, noun_b, person_pet, 
+	---------------------------""" .format (num, adjective_a, noun_a, verb, noun_b, person_pet, 
 	noun_c, noun_b, adjective_b, noun_c)
